@@ -1,12 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
+import SearchBoxPro from '../components/search-box-pro';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Santiago Porfolio</h1>
+        <SearchBoxPro />
       </header>
     </div>
   );

@@ -1,0 +1,31 @@
+.search-box-pro {
+    &__container {
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+        min-width: 300px;
+        background-color: white;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+
+        p {
+            margin: 0;
+            padding: 0;
+            color: blue;
+        }
+    }
+
+    &__input {
+        font-size: 19px;
+        border: none;
+
+        &:focus-visible {
+            outline-offset: 0px;
+            border: none;
+            outline: none;
+        }
+
+
+    }
+}
